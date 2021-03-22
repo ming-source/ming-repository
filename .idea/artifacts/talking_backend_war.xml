@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="talking-backend:war">
+    <output-path>$PROJECT_DIR$/talking-backend/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>talking-backend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="wcdog.war">
+      <element id="artifact" artifact-name="talking-backend:war exploded" />
+    </root>
+  </artifact>
+</component>
